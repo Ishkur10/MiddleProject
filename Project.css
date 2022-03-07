@@ -1,0 +1,94 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    position: absolute:
+}
+.nav_links{
+    list-style: none;
+    color: grey;
+}
+.nav_links li:hover {
+    color: blue;
+}
+.nav_links li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.button_nav {
+    padding: 9px 25px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button_trans {
+    padding: 9px 25px;
+    background-color: transparent;
+    color: grey;
+    border: none;
+    cursor: pointer;
+}
+
+.Part1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.half2 {
+
+     position: relative;
+}
+
+.card1 {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    left: -5%;
+    top: 15%;
+    width: 250px;
+}
+
+
+.hero {
+    display: inline-block;
+    height: 650px;
+}
+.card2 {
+    position: absolute;
+    top: auto;
+    left: auto;
+    bottom: -10%;
+    right: -10%;
+    height: 250px;
+}
+
+
+.section1{
+    padding: 0px 24px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.leftside{
+    max-width: 550px;
+    padding-top: 100px;
+
+    }
+
+.leftside h1{
+    font-size: 60px;
+}
+.leftside h2{
+    font-size: 20px;
+    max-width: 430px;
+}
+
+
